@@ -64,5 +64,6 @@ describe('login', () => {
     cy.get('.notice p')
       .should('be.visible')
       .and('have.text', 'O formato do e-mail está incorreto. Por favor, verifique e tente novamente!')
+      //testando o git
   })
 })
